@@ -38,7 +38,7 @@ const BasicUsage=()=> {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
       <>
-        <Button onClick={onOpen}>Check-out</Button>
+        <Button onClick={onOpen }>Check-out</Button>
   
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />

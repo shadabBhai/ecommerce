@@ -8,9 +8,9 @@ import {CiFaceSmile} from 'react-icons/ci'
 const Footer = () => {
   
   return (
-    <HStack p={"8"} shadow={"base"} bgColor={"blackAlpha.800"} >
+    <HStack p={"6"} shadow={"base"} bgColor={"blackAlpha.800"} >
         <Center  h='100px' color='white'>
-              Deleoped by shadab khan <span> </span> <CiFaceSmile/>
+              Developed by shadab khan <CiFaceSmile/>
         </Center>
     </HStack>
   )

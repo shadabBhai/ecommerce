@@ -12,8 +12,8 @@ const Home = () => {
     
     <div>
      
-      <Link to={"/product"}>
-        <Image src={shop} alt='shop' width ="100%" />
+      <Link to={"/products"}>
+        <Image src={shop} alt='shop' width ="100%" height="100%" />
       </Link>
 
 
